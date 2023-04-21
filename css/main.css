@@ -59,20 +59,28 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  #wrapper{
+  }
   header {
     background-color:rgb(220, 239, 252) ;
   }
 
   #column-1 {
     background-color: rgb(209, 252, 254);
+    width: 50%;
+    float: left;
   }
 
   #column-2 {
     background-color: rgb(136, 202, 247);
+    width: 50%;
+    float: left;
   }
 
   #column-3 {
     background-color: rgb(95, 222, 251);
+    width: 50%;
+    float:left;
   }
 
   footer {
@@ -84,20 +92,29 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  #wrapper{
+  }
   header {
     background-color: rgb(254, 229, 229);
+    
   }
 
   #column-1 {
     background-color: rgb(254, 185, 185);
+    width: 33.33%;
+    float: left;
   }
 
   #column-2 {
     background-color: rgb(255, 134, 134);
+    width: 33.33%;
+    float: left;
   }
 
   #column-3 {
     background-color:rgb(252, 67, 67) ;
+    width: 33.33%;
+    float: left;
   }
 
   footer {
